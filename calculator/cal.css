@@ -1,0 +1,58 @@
+body
+{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(246, 243, 243);
+
+}
+
+#calci
+{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(56, 53, 53);
+    border-radius: 20px;
+    max-width: 500px;
+    overflow: hidden;
+    
+}
+
+#num
+{
+    width: 100%;
+    padding: 20px;
+    font-size: 5rem;
+    text-align: left;
+    border: none;
+    background-color: rgb(95, 93, 93);
+    color: wheat;
+}
+
+
+
+button
+{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: none;
+    background-color: rgb(58, 57, 57);
+    color: white;
+    font-size: 3rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+#key
+{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 10px;
+    padding: 30px;
+    
+}
+.operator
+{
+    background-color:rgb(66, 113, 52)
+}

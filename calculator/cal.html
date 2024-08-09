@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CALCULATOR</title>
+    <link rel="stylesheet" href="cal.css">
+</head>
+<body>
+    <div id="calci">  
+       <input id="num" readonly> 
+       <div id="key">
+         
+         <button class="operator" type="button" onclick="appendNum('+')">+</button>
+         <button id="sev" type="button"onclick="appendNum('7')">7</button>
+         <button id="eig" type="button"onclick="appendNum('8')">8</button>
+         <button id="nin" type="button" onclick="appendNum('9')">9</button> 
+         <button class="operator" type="button" onclick="appendNum('-')">-</button>
+         <button id="fou" type="button" onclick="appendNum('4')">4</button>
+         <button id="five" type="button" onclick="appendNum('5')">5</button>
+         <button id="six" type="button" onclick="appendNum('6')">6</button>
+         <button class="operator" type="button" onclick="appendNum('*')">*</button>
+        <button id="one" type="button" onclick="appendNum('1')">1</button>
+        <button id="two" type="button" onclick="appendNum('2')">2</button>
+        <button id="thr" type="button" onclick="appendNum('3')">3</button> 
+        <button class="operator" type="button" onclick="appendNum('/')">/</button>
+        <button id="zero" type="button" onclick="appendNum('0')">0</button>
+        <button id="deci" type="button" onclick="appendNum('.')">.</button>
+        <button id="equ" type="button" onclick="calculate()">=</button>
+        <button class="operator"type="button" onclick="allclear()">AC</button>
+        <button id="C" type="button" onclick="clear()">C</button>
+
+     </div>
+
+   </div>
+    
+    
+
+
+   <script src="cal.js"></script>
+</body>
+</html>
